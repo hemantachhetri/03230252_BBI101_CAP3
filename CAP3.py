@@ -1,4 +1,21 @@
-def read_text(txt_file): #reading a text file
+#####################################
+# https://github.com/hemantachhetri/03230252_BBI101_CAP3
+# Hemanta Chhetri
+# BBI 'B'
+# 03230252
+#####################################
+
+# REFERENCES
+# Lemaster, P. (2021, december 30).Retrieved from how to read from the text.txt file in python.[Video].Youtub video.https://youtu.be/DCaKj3eIrro?si=qKRB-oW8UYlVEbyy
+# Aurange, A. (2022, december 8). File Handling in Python.[Video].Yputub video.https://youtube.com/playlist?list=PLVJiPhsW8Gnf5rQCOXoptugEtJneB0ZOd&si=DqUGUWhZo9ZvxzNT
+#####################################
+
+#SOLUTION
+# The solution for my input file is 488140
+#####################################
+
+# Reading a text file
+def read_text(txt_file): 
     total_sum = 0
     
     with open(txt_file, 'r') as file:
@@ -35,8 +52,5 @@ answer = read_text(txt_file)
 
 print(f"The solution for my input file is {answer}")
 
-# REFERENCES
-# Lemaster, P. (2021, december 30).Retrieved from how to read from the text.txt file in python.[Video].Youtub video.https://youtu.be/DCaKj3eIrro?si=qKRB-oW8UYlVEbyy
-# Aurange, A. (2022, december 8). File Handling in Python.[Video].Yputub video.https://youtube.com/playlist?list=PLVJiPhsW8Gnf5rQCOXoptugEtJneB0ZOd&si=DqUGUWhZo9ZvxzNT
 
 
